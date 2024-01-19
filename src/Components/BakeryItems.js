@@ -71,12 +71,20 @@ const BakeryItems = () => {
                 className="btn"
                 disabled={item.added}
               >
-                {item.added ? "Added to the Cart" : "Add to Cart"} 
+                {item.added ? "Added to the Cart" : "Add to Cart"}
               </Button>
             </Card>
           </div>
         ))}
       </div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/rjUaLOy5d3k?si=iqTijS4YO6OgN-3T"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        // allowfullscreen
+      ></iframe>
     </div>
   );
 };
