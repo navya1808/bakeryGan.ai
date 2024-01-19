@@ -46,16 +46,16 @@ const Home = () => {
                 </Link>
               </div>
               <div>
-              <Link to="/cart">
-                <Button
-                  type="primary"
-                  shape="round"
-                  size="large"
-                  className="viewButton"
-                >
-                  View Cart
-                </Button>
-              </Link>
+                <Link to="/cart">
+                  <Button
+                    type="primary"
+                    shape="round"
+                    size="large"
+                    className="viewButton"
+                  >
+                    View Cart
+                  </Button>
+                </Link>
               </div>
               <div>
                 <Button
@@ -72,6 +72,14 @@ const Home = () => {
           </div>
         </div>
       ))}
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/rjUaLOy5d3k?si=iqTijS4YO6OgN-3T"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        // allowfullscreen
+      ></iframe>
     </Carousel>
   );
 };
